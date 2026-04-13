@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+<style>
+body {
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.title {
+    text-align: center;
+    font-size: 70px;
+    font-weight: 500;
+    margin: 60px 0 20px;
+    color: #7b6f67;
+
+    width: 100%;
+}
+
+.container {
+    padding: 0px 40px 40px;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(3, 300px);
+    justify-content: center;
+    gap: 35px;
+    margin-top: 60px;
+}
+
+.card {
+    text-decoration: none;
+    color: black;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.card img {
+    width: 100%;
+    height: 220px;
+    object-fit: cover;
+    border-radius: 12px;
+}
+
+.card h3 {
+    font-size: 20px;     
+    font-weight: 300;
+    margin: 5px 0 0;
+    color: #7b6f67;
+    text-align: left;
+
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+
+    line-clamp: 2;
+
+    overflow: hidden;
+
+    min-height: 50px; 
+}
+
+.card h4 {
+    font-size: 20px;    
+    font-weight: 300;
+    margin: 5px 0 0;
+    color: #7b6f67;
+    text-align: left;
+
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+
+    line-clamp: 2;
+
+    overflow: hidden;
+
+    min-height: 40px; 
+}
+
+
+.card p {
+    margin-top: 5px;
+    color: #231815;
+    font-size: 15px;
+}
+
+
+.card:hover {
+    opacity: 0.85;
+}
+
+footer {
+    margin-top: 40px;
+    padding: 20px;
+    text-align: center;
+    background: #f5f5f5;
+}
+</style>
+
+</head>
+
+<body>
+
+
+<h2 class="title">Рецепты с дрожжевым тестом</h2>
+
+<div class="container">
+
+    <div class="grid">
+
+    <a class="card" href="https://www.bremor.com/recipes/tvorozhnye-pletenki-s-yablokami/" target="_blank">
+        <img src="images/Творожные плетенки с яблоками.jpg">
+        <h3>Творожные плетёнки с яблоками</h3>
+        <p>45 минут</p>
+    </a>
+
+    <a class="card" href="https://www.bremor.com/recipes/tvorozhnyy-krants-so-sgushchenkoy-orekhami-i-izyumom/" target="_blank">
+        <img src="images/Творожный кранц со сгущенкой, орехами и изюмом.jpg">
+        <h3>Творожный кранц со сгущенкой, орехами и изюмом</h3>
+        <p>75 минут</p>
+    </a>
+
+    <a class="card" href="https://www.bremor.com/recipes/appetitnye-vatrushki-s-ovoshchami/" target="_blank">
+        <img src="images/Аппетитные ватрушки с овощами.jpg">
+        <h3>Аппетитные ватрушки с овощами</h3>
+        <p>60 минут</p>
+    </a>
+
+    <a class="card" href="https://www.bremor.com/recipes/lodochki-s-syrom-kuragoy-i-krasnym-lukom/" target="_blank">
+        <img src="images/Лодочки с сыром, курагой и красным луком.jpg">
+        <h3>Лодочки с сыром, курагой и красным луком</h3>
+        <p>45 минут</p>
+    </a>
+
+    <a class="card" href="https://www.bremor.com/recipes/nezhnye-smetanniki/" target="_blank">
+        <img src="images/Нежные сметанники.jpg">
+        <h3>Нежные сметанники</h3>
+        <p>120 минут</p>
+    </a>
+
+    <a class="card" href="https://www.bremor.com/recipes/pechene-gusinye-lapki/" target="_blank">
+        <img src="images/Печенье «Гусиные лапки».jpg">
+        <h3>Печенье «Гусиные лапки»</h3>
+        <p>40 минут</p>
+    </a>
+
+    <a class="card" href="#" target="_blank">
+        <img src="images/Пирог с вареньем.webp">
+        <h4>Пирог с вареньем</h4>
+        <p>45 минут</p>
+    </a>
+
+    <a class="card" href="#" target="_blank">
+        <img src="images/Пицца.jpg">
+        <h4>Домашняя пицца</h4>
+        <p>45 минут</p>
+    </a>
+
+    <a class="card" href="#" target="_blank">
+        <img src="images/Плюшки с сахаром.jpg">
+        <h4>Плюшки с сахаром</h4>
+        <p>35 минут</p>
+    </a>
+
+    <a class="card" href="#" target="_blank">
+        <img src="images/Рождественский штоллен.jpg">
+        <h4>Рождественский штоллен</h4>
+        <p>60 минут</p>
+    </a>
+
+    <a class="card" href="#" target="_blank">
+        <img src="images/Сладкая плетенка с корицей.jpg">
+        <h4>Плетёнка с корицей</h4>
+        <p>40 минут</p>
+    </a>
+
+    <a class="card" href="#" target="_blank">
+        <img src="images/Смаженка с колбасой.jpg">
+        <h4>Смаженка с колбасой</h4>
+        <p>30 минут</p>
+    </a>
+
+</div>
+
+</div>
+
+</body>
+</html>
